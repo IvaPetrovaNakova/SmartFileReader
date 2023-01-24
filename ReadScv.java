@@ -12,7 +12,6 @@ public class ReadScv {
     public static void main(String[] args) throws IOException {
         String file = "src\\main\\java\\app\\Bulgarian Roads.csv";
         BufferedReader reader = null;
-
         try {
             reader = new BufferedReader(new FileReader(file));
             List<City> cities = new ArrayList<>();
